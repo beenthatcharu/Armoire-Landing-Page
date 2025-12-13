@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/home-interiors-modular-kitchen/:path*",
+      "destination": "https://dream-kitchen-home.vercel.app/home-interiors-modular-kitchen/:path*"
+    }
+  ]
+}
