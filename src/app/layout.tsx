@@ -4,10 +4,10 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/react';
 
-export const metadata: Metadata = {
-  title: 'Armoire – Stylish Home Interiors & Modular Solutions in Bhopal',
-  description: 'Transform your home with Armoire, Bhopal’s trusted name for modular kitchens and custom interiors. From bedrooms to living spaces, we create functional, stylish homes tailored to your lifestyle. Book your free consultation today.',
-};
+//export const metadata: Metadata = {
+  //title: 'Armoire – Stylish Home Interiors & Modular Solutions in Bhopal',
+  //description: 'Transform your home with Armoire, Bhopal’s trusted name for modular kitchens and custom interiors. From bedrooms to living spaces, we create functional, stylish homes tailored to your lifestyle. Book your free consultation today.',
+//};
 
 export default function RootLayout({
   children,
