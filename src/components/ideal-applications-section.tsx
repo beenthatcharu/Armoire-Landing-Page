@@ -6,8 +6,8 @@ const applications = [
   { icon: <Building className="w-8 h-8 text-primary" />, text: 'Apartments & Villas' },
   { icon: <House className="w-8 h-8 text-primary" />, text: 'New Home Interiors' },
   { icon: <Construction className="w-8 h-8 text-primary" />, text: 'Renovation Projects' },
-  { icon: <Fence className="w-8 h-8 text-primary" />, text: 'Rental Property Upgrades' },
-  { icon: <Briefcase className="w-8 h-8 text-primary" />, text: 'Commercial & Office Interiors' },
+  { icon: <Fence className="w-8 h-8 text-primary" />, text: 'Rental Home Upgrades' },
+  { icon: <Briefcase className="w-8 h-8 text-primary" />, text: 'Modular Furniture' },
 ];
 
 export default function IdealApplicationsSection() {

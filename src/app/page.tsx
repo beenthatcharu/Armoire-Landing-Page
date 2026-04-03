@@ -32,7 +32,7 @@ export default function Home() {
           <FaqSection />
         </AnimatedSection>
         <AnimatedSection>
-          <CtaSection />
+         {/* <CTASection /> */}
         </AnimatedSection>
       </main>
       <Footer />

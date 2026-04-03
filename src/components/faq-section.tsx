@@ -7,20 +7,20 @@ import {
   
   const faqs = [
     {
-      question: "How long does it take to complete home interiors?",
-      answer: "Typically 4–8 weeks, depending on scope and customisations."
+      question: "Do you handle complete home interiors?",
+      answer: "Yes, we manage design, planning, and execution end-to-end."
     },
     {
-      question: "Can I choose materials and colours?",
-      answer: "Absolutely! We offer full customisation for all rooms."
+      question: "How long does a project take?",
+      answer: "Most projects are completed within a few weeks."
     },
     {
-      question: "Do you provide design consultations?",
-      answer: "Yes, our expert team offers free site visits and 3D layout planning."
+      question: "Do you offer customised designs?",
+      answer: "Yes, every design is tailored to your space and needs."
     },
     {
-      question: "Is EMI or phased payment available?",
-      answer: "Yes, flexible payment options are available for your convenience."
+      question: "Do you have an in-house team?",
+      answer: "Yes, everything is handled by our in-house team."
     },
   ]
   

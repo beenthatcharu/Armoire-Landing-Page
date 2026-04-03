@@ -6,27 +6,27 @@ import { Sparkles, CheckCircle } from 'lucide-react';
 const products = [
   {
     name: 'Modular Kitchens',
-    description: 'Stylish, functional kitchens with customised layouts and smart storage, built to suit your daily needs and taste.',
+    description: 'Smart layouts, efficient storage, and designs that make everyday cooking effortless.',
     image: 'https://res.cloudinary.com/ddqqlfsjp/image/upload/v1754024721/beautiful-kitchen-interior-design_1_bspnyy.jpg',
     aiHint: 'Modular Kitchens',
   },
   {
     name: 'Wardrobes & Storage',
-    description: 'Sliding, hinged, or walk-in — our wardrobes are built to blend style with efficient space management.',
+    description: 'Well-planned storage solutions that maximise space and maintain aesthetics.',
     image: 'https://res.cloudinary.com/ddqqlfsjp/image/upload/v1754024817/3d-rendering-luxury-scandinavian-wood-walk-closet-with-wardrobe-make-up-table_1_qkliun.jpg',
     aiHint: 'Wardrobes & Storage',
     
   },
   {
-    name: 'Living & Dining Spaces',
-    description: 'From TV units to wall paneling and dining setups — we design warm, welcoming social spaces for every home.',
+    name: 'Living Spaces',
+    description: 'Stylish and welcoming interiors designed for comfort, gatherings, and everyday living.',
     image: 'https://res.cloudinary.com/ddqqlfsjp/image/upload/v1754024916/2_vj6fbk.png',
     aiHint: 'Living & Dining Spaces',
    
   },
    {
     name: 'Bedroom Interiors',
-    description: 'Create serene, restful bedrooms with coordinated themes, clever storage, and beautiful finishing touches.',
+    description: 'Calm, functional spaces designed for relaxation with smart planning and finishes.',
     image: 'https://res.cloudinary.com/ddqqlfsjp/image/upload/v1754024721/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_1_jq86z4.jpg',
     aiHint: 'Bedroom Interiors',
    
@@ -43,10 +43,9 @@ export default function ProductTypesSection() {
           </div>
           <h2 className="text-3xl font-bold font-body text-primary sm:text-4xl">Our Interior Solutions</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Explore our range of home interior offerings crafted for every room and purpose.
-          </p>
+Explore complete home interior services designed for modern living.          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {products.map((product) => (
             <Card key={product.name} className="overflow-hidden bg-background border-border/20 hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader className="p-0">

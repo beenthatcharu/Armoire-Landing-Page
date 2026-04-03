@@ -22,12 +22,9 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white max-w-2xl text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-body tracking-tight">
-              Premium Home Interior Renovation Solution in Bhopal
-            </h1>
+Premium Home Interior Solutions in Noida and Greater Noida            </h1>
             <p className="mt-6 text-lg md:text-xl font-body text-gray-300">
-              Explore our range of curated interior styles — from contemporary
-              minimalism to traditional charm — crafted to balance beauty and
-              utility in every space.
+             We plan, design, and execute complete home interiors seamlessly under one roof, ensuring a smooth, hassle-free experience for every homeowner.
             </p>
             <div className="mt-8">
               <Button size="lg" asChild>

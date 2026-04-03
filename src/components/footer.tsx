@@ -19,7 +19,7 @@ export default function Footer() {
             ))}
         </nav>
         <p className="text-sm text-muted-foreground">
-            © {currentYear} Dream Kitchen. All rights reserved.
+            © {currentYear} Armoire. All rights reserved.
         </p>
       </div>
     </footer>

@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const reasons = [
     {
         icon: <Award className="w-8 h-8 text-primary" />,
-        title: 'Best Home Interior Designs in Bhopal',
-        description: 'Trusted by hundreds of homeowners for premium, elegant interiors.',
+        title: 'Modern Interior Expertise in Noida and Greater Noida',
+        description: 'Trusted for creating functional and stylish home interiors.',
     },
     {
         icon: <Wrench className="w-8 h-8 text-primary" />,
-        title: 'Personalised Consultations',
-        description: 'We understand your vision and turn it into reality — with 3D designs and mood boards.',
+        title: 'Personalised Design Approach',
+        description: 'We understand your needs and design spaces that truly fit.',
     },
     {
         icon: <IndianRupee className="w-8 h-8 text-primary" />,
-        title: 'Transparent Pricing',
-        description: 'No hidden charges — just clear estimates and real value.',
+        title: 'Clear & Honest Pricing',
+        description: 'No surprises, just transparent costing.',
     },
     {
         icon: <ShieldCheck className="w-8 h-8 text-primary" />,
-        title: 'Durable Quality',
-        description: 'We use moisture-resistant boards, top-brand fittings, and tested finishes that last.',
+        title: 'Quality That Lasts',
+        description: 'Durable materials and well-executed finishes.',
     },
     {
         icon: <HeartPulse className="w-8 h-8 text-primary" />,
-        title: 'After-Sales Support',
-        description: 'Our relationship continues beyond installation, with dedicated service and support.',
+        title: 'Post-Project Support',
+        description: 'We stay connected even after completion.',
     },
    
 ];
@@ -35,7 +35,7 @@ export default function WhyChooseUsSection() {
         <section id="why-us" className="py-20 sm:py-32">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold font-body text-primary sm:text-4xl">Why Choose Dream Kitchens?</h2>
+                    <h2 className="text-3xl font-bold font-body text-primary sm:text-4xl">Why Choose Armoire Homes?</h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                    {reasons.slice(0,6).map((reason) => (
